@@ -1,0 +1,29 @@
+h1{
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+.same-background{
+    background-color: aqua;
+}
+
+p{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+body{
+    font-size: 16px;
+}
+
+#cor1 {
+    background-color:yellow ;
+}
+
+#cor2 {
+    background-color:red ;
+}
+
+#cor3 {
+    background-color: brown;
+}
