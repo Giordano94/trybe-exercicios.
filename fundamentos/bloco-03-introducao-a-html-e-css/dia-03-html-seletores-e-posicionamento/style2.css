@@ -8,3 +8,7 @@ h1, p{
 .itens:active{
     color: aliceblue;
 }
+
+.lista{
+    list-style: none;
+}
