@@ -1,0 +1,62 @@
+div:hover {
+    border: 5px dashed #7fffd4;
+
+}
+
+div:nth-of-type(1) {
+    background-color: pink;
+}
+
+div:nth-of-type(2) {
+    background-color: blueviolet;
+}
+
+div:nth-of-type(3) {
+    background-color: palegoldenrod;
+}
+
+div:nth-of-type(4) {
+    background-color: yellowgreen;
+  }
+
+  div:nth-of-type(5) {
+    background-color: red;
+  }
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+
+}
+
+div:nth-of-type(1) > h3 {
+    border-style: groove 10px black;
+}
+
+
+div:nth-of-type(2) > h3 {
+    color: blanchedalmond;
+}
+
+
+
+div:nth-of-type(3) > h3 {
+    font-family: fantasy;
+}
+
+
+
+div:nth-of-type(4) > h3 {
+   font-weight: 500;
+}
+
+
+
+div:nth-of-type(5) > h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+div:nth-of-type(3) {
+    height: 100px;
+  }
+
+
