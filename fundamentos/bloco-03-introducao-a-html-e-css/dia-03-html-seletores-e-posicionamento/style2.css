@@ -1,0 +1,14 @@
+h1, p{
+    text-align: center;
+}
+
+.itens:hover{
+    background-color: red;
+}
+.itens:active{
+    color: aliceblue;
+}
+
+.lista{
+    list-style: none;
+}

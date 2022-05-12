@@ -1,0 +1,55 @@
+ol li:nth-child(odd) {
+    color: green;
+    font-weight: bold;
+}
+
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 20px;
+}
+
+h1,
+h3 {
+    color: red;
+}
+
+h1 em,
+h2 em {
+
+    font-size: 40px;
+    border: 5px solid black;
+}
+
+/* Este seletor coloca a cor de font azul em todos os elementos exceto do 4 em diante */
+
+#linguagens li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+
+
+#aliados li a[href*="stackoverflow"] {
+    color: gold;
+}
+
+#aliados li a[href*="w3schools"] {
+    color: rebeccapurple;
+}
+
+#aliados li a[href*="mozilla"] {
+    color: orangered;
+}
+
+#aliados li a[href*="devdocs"] {
+    color: slategrey;
+}
+
+#aliados li a[href*="trybe"] {
+    color: teal;
+}
