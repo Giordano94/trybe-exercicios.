@@ -49,11 +49,31 @@ else if (currentHour >= 11 && currentHour < 14) {
 }
  */
 
-let weekDay ="sabado"
+/*let weekDay ="sabado"
 
 if(weekDay === "Segunda" || weekDay === "Terça" || weekDay === "Quarta" || weekDay === "Quinta" || weekDay === "Sexta" ){
     console.log("Oba, mais um dia de aprendizado na Trybe >:D")
 }
 else{
     console.log("FINALMENTE, descanso merecido UwU")
+} */
+
+
+let trafficLight = "vermelho";
+
+switch(trafficLight){
+    case "vermelho":
+    console.log("pare")
+    break;
+
+    case "amarelo":
+    console.log("atenção")
+    break;
+
+    case "verde":
+    console.log("prossiga")
+    break;
+
+    default:
+        console.log("valor não indentificado")
 }
