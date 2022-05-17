@@ -109,7 +109,7 @@ console.log(Module)
         console.log("A variável B contem o maior número ");
     }
 
-    if (a > b && b > c){
+    if (a > b && a > c){
         maior = a;
         console.log("A variável A contem o maior número");
     } else if(b > c){
