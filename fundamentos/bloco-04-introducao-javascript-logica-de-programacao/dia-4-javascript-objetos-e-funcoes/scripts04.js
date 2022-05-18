@@ -79,7 +79,51 @@ console.log("O segundo livro favorito de " + leitor.nome + " " + leitor.sobrenom
 console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros favoritos.")
 
 
+// Exercício 1 Parte 2 Funções 
+
+function ItsPalindrome(word) {
+
+    for (value in word) {
+        if (word[value] != word[(word.length - 1) - value]) {
+            return false;
+        }
+    }
+    return true;
+
+}
+
+console.log(ItsPalindrome("arara"))
+
+
+// Exercício 2 Parte 2 Funções 
+
+function IndiceDoMaior(array) {
+
+    let maior = 0;
+    for (let index in array) {
+        if (array[maior] < array[index]) {
+            maior = index;
+        }
+    }
+
+    return maior;
+}
+
+console.log(IndiceDoMaior([56, 78, 98, 99, 23, 45, 67]));
 
 
 
+// Exercício 3 Parte 2 Funções 
 
+function IndiceDoMenor(array) {
+
+    let menor = 0
+    for (let index in array) {
+        if (array[menor] > array[index]) {
+            menor = index
+        }
+    }
+    return menor;
+}
+
+console.log(IndiceDoMenor([56, 78, 98, 99, 23, 45, 67]));
