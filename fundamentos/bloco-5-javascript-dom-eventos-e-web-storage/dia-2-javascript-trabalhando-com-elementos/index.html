@@ -119,6 +119,41 @@
           }
 
 
+          // Exercicio 1 segunda parte 
+
+            const title = document.querySelector('h1');
+            title.className = 'title';
+
+          // Exercicio 2 segunda parte 
+
+          const tagH3 = document.getElementById('h3');
+          for(let i = 0; i <= 3; i += 1){
+              tagH3[i].className = 'description'
+          }
+
+          // Exercicio 3 segunda parte 
+
+            const removeSectionLeft = document.getElementsByClassName('left-content')[0];
+            main.removeChild(removeSectionLeft);
+
+
+          // Exercicio 4 segunda parte 
+
+            const centralizaSecionRight = document.getElementsByClassName('right-content')[0];
+                centralizaSecionRight.style.marginRigth = 'auto';
+                
+          // Exercicio 5 segunda parte 
+
+            const backgroundSection = document.getElementsByClassName('center-content')[0];
+                backgroundSection.parentNode.style.background = 'green';
+
+          // Exercicio 6 segunda parte 
+
+            ul.lastChild.remove();
+            ul.lastChild.remove();
+          
+
+
 
 
     </script>
